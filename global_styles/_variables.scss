@@ -1,0 +1,38 @@
+// Project colors
+$managerPrimary: var(--managerPrimary);
+$managerSecondary: var(--managerSecondary);
+$managerColors: $managerSecondary,
+                $managerPrimary 60%;
+
+$burgerPrimary: var(--burgerPrimary);
+$burgerSecondary: var(--burgerSecondary);
+$burgerColors: $burgerPrimary,
+               $burgerSecondary 60%;
+
+$searchPrimary: var(--searchPrimary);
+$searchSecondary: var(--searchSecondary);
+$searchColors: $searchPrimary,
+               $searchSecondary 60%;
+
+$subscriptionPrimary: var(--subscriptionPrimary);
+$subscriptionSecondary: var(--subscriptionSecondary);
+$subscriptionColors: $subscriptionPrimary,
+                     $subscriptionSecondary 60%;
+
+$githubPrimary: var(--githubPrimary);
+$githubSecondary: var(--githubSecondary);
+$githubColors: $githubPrimary,
+               $githubSecondary 60%;
+
+// Main portfolio Colors
+$primary: #5918DF;
+$secondary: #1A1527;
+
+// Gray scale
+$gray: #D1D1D1;
+$gray-light: #E0E0E0;
+$gray-lightest: #F9F9F9;
+
+// Alpha colors
+$alpha-white: rgba(255, 255, 255, .9);
+$alpha-black: rgba(26, 21, 39, .9);

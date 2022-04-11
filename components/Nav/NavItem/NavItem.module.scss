@@ -1,0 +1,30 @@
+.item {
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    &.active {
+        a {
+            color: var(--primary-hover);
+        }
+    }
+    a {
+        color: var(--seconday-button);
+        text-decoration: none;
+        transition: color .5s;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .item {
+        font-size: 7rem;
+        a {
+            &:hover,
+            &:focus {
+                color: var(--primary-hover);
+            }
+        }
+    }
+}
